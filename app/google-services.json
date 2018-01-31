@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "615952712605",
+    "firebase_url": "https://javaquiz-e192f.firebaseio.com",
+    "project_id": "javaquiz-e192f",
+    "storage_bucket": "javaquiz-e192f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615952712605:android:9983991b0b4cc2bb",
+        "android_client_info": {
+          "package_name": "com.rekklesdroid.android.javaquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "615952712605-9ns0cvtfr7to9206e6jsltl2m6d0sf1f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rekklesdroid.android.javaquiz",
+            "certificate_hash": "75ed08e3dbce267fc5c1ec67ce4b4284c792a3bf"
+          }
+        },
+        {
+          "client_id": "615952712605-2driul0j33meignuoe6jgp1peuprr9jt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRKykhhu7dWCkFjrqHy-s1NUEBUw6XqD8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "615952712605-2driul0j33meignuoe6jgp1peuprr9jt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
