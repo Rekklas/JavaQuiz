@@ -1,6 +1,7 @@
 package com.rekklesdroid.android.javaquiz;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -45,7 +46,7 @@ public class LoginActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_login);
         ButterKnife.bind(this);
 
         //Firebase
@@ -65,7 +66,11 @@ public class LoginActivity extends AppCompatActivity {
                     if (!username.isEmpty()) {
                         User login = dataSnapshot.child(username).getValue(User.class);
                         if (login.getPassword().equals(password)) {
-                            Toast.makeText(LoginActivity.this, "Log In ok !", Toast.LENGTH_SHORT).show();
+
+                            Intent homeActivity = new Intent(LoginActivity.this, HomeActivity.class);
+                            startActivity(homeActivity);
+                            finish();
+
                         } else {
                             Toast.makeText(LoginActivity.this, "Wrong password !", Toast.LENGTH_SHORT).show();
                         }
